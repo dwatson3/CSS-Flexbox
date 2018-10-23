@@ -1,0 +1,53 @@
+@media screen and (min-width: 320px) and (max-width: 700px) {
+/* 415 px for max originally */
+
+}
+
+body {
+		/*background-image: url("../images/pexels-background-canvas-close-up-1020320.jpg");	*/
+		background-color: #DADBDC;
+	}
+
+.container {
+	background-color: white;
+	border-radius: 2%;
+	margin: 5% 5%;
+	padding: 2% 2%;
+}	
+
+section {
+	margin-bottom: 5%;
+}
+
+h1 {
+	color: black;
+	font-family: 'Old Standard TT', serif;
+	letter-spacing: 2px;
+	margin-bottom: 10%;
+}
+
+h1 span {
+	float: right;
+	font-size: 16px;
+	margin-right: 5%;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	/*margin-top: 10%;*/
+}
+
+.pad-left {
+	padding-left: 5%;
+}
+
+.pad-left-list {
+	padding-left: 10%;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	margin-bottom: 1%;	
+}

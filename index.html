@@ -3,16 +3,60 @@
 	
 	<head>
 		<meta charset="utf-8">
-		<meta name="">
+		<!-- <meta name=""> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Notes on CSS Flexbox</title>
 
-		<link rel="stylesheet" href="./css/custom.css">
-		<link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="../css/custom.css">
+		<link rel="stylesheet" href="../css/normalize.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 
 	<body>
+		<div class="container">
 	
+			<section class="one">	
+				<h1>CSS FlexBox Fundamentals <span>by daphne</span></h1>
+
+				<p><strong><em>What is it?</em></strong></p>
+
+				<p class="pad-left">Flexbox is a set of CSS properties that provide a flexible way to lay out content.</p>
+			</section>
+
+			<section class="two">
+				<p><strong><em>There are three important points to keep in mind:</em></strong></p>
+
+				<p class="pad-left"><strong>Flex Container:</strong></p>
+					
+					<ul class="pad-left-list">
+						<li>Sets the context for the flex box layout.</li>
+
+						<li>Contains flex items, the acutal elements that you layout using flex box.</li>
+
+						<li>Can be any block-level or inline element.</li>
+					</ul>
+
+				<p class="pad-left"><strong>Flex Items:</strong></p>
+					
+					<ul class="pad-left-list">
+						<li>Every direct child of a flex container.</li>
+
+						<li>There can be any number of flex items inside a flex container.</li>
+					</ul>
+
+				<p class="pad-left"><strong>Flexbox Axes:</strong></p>
+					
+					<ul class="pad-left-list">
+						<li><em>Main axes</em> &mdash; where primary flex items are laid out, the main start/main end direction is left&ndash;to&ndash;right.</li>
+
+						<li><em>Cross axis</em> &mdash; the main start/main end is top&ndash;to&ndash;bottom.</li>
+					</ul>			
+
+			</section>
+
+		</div>
 	<script src="./js/script.js"></script>	
 	</body>
 </html>
