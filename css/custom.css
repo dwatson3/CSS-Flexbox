@@ -51,3 +51,23 @@ li {
 	font-size: 18px;
 	margin-bottom: 1%;	
 }
+
+.three h2 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 28px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	margin-bottom: 2%;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-img-demo {
+	padding-right: 5%;
+}
+
+.orange {
+	color: #EC8B24;
+}

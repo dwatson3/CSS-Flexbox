@@ -23,7 +23,7 @@
 				<p><strong><em>What is it?</em></strong></p>
 
 				<p class="pad-left">Flexbox is a set of CSS properties that provide a flexible way to lay out content.</p>
-			</section>
+			</section> <!-- section one ends -->
 
 			<section class="two">
 				<p><strong><em>There are three important points to keep in mind:</em></strong></p>
@@ -53,8 +53,31 @@
 
 						<li><em>Cross axis</em> &mdash; the main start/main end is top&ndash;to&ndash;bottom.</li>
 					</ul>			
+			</section> <!-- section two ends -->
 
-			</section>
+			<section class="three">
+				<h2 class="pad-left">Creating a Flex Container!</h2>
+
+				<div class="flex">
+					<div class="flex-img-demo pad-left-list">
+						<img src="../images/pexels-photo-247685-small.png" alt="Flex Demo">
+
+						<img src="../images/pexels-photo-988865-small.jpg" alt="Flex Demo">
+				
+						<img src="../images/pexels-photo-1099680-small.jpg" alt="Flex Demo">
+					</div> <!-- flex-img-demo ends -->
+				</div> <!-- flex ends -->
+
+				<p class="pad-left-list"><strong>Above</strong>: the flex container is used with <code class="orange"> display: flex;</code> &mdash; this creates a block&ndash;level flex container.</p>
+
+				<ul class="pad-left-list">
+					<li>Any element outside a flex container is not affected by the flex box layout.</li>
+
+					<li>Only children of a flex container automatically become flex items.</li>
+
+					<li>Some flexbox properties apply to the flex container only, while some may apply only to the flex items.</li>
+				</ul>
+			</section> <!-- section three ends -->
 
 		</div>
 	<script src="./js/script.js"></script>	
