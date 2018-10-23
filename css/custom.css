@@ -27,9 +27,11 @@ h1 {
 }
 
 h1 span {
+	cursor: pointer;
 	float: right;
-	font-size: 16px;
+	font-size: 18px !important;
 	margin-right: 5%;
+	text-decoration: none;
 }
 
 p {
@@ -52,7 +54,7 @@ li {
 	margin-bottom: 1%;	
 }
 
-.three h2 {
+h2 {
 	font-family: 'Old Standard TT', serif;
 	font-size: 28px;
 	font-weight: 800;
@@ -60,7 +62,7 @@ li {
 	margin-bottom: 2%;
 }
 
-.flex {
+.three .flex {
 	display: flex;
 }
 
@@ -71,3 +73,18 @@ li {
 .orange {
 	color: #EC8B24;
 }
+
+.fourth .flex {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 5%;
+}
+
+.fourth .flex div {
+	padding-left: 0.25%;
+}
+
+.pad-btm {
+	padding-bottom: 3%;
+}
+
