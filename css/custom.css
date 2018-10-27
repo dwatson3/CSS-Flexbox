@@ -74,8 +74,12 @@ h2 {
 	color: #EC8B24;
 }
 
-.fourth .flex {
+.four .flex {
 	display: flex;
+	
+}
+
+.fourth .flex img {
 	flex-direction: row-reverse;
 	margin-right: 5%;
 }
@@ -88,3 +92,23 @@ h2 {
 	padding-bottom: 3%;
 }
 
+.five .flex {
+	display: flex;
+}
+
+.five .flex {
+	flex-direction: column;
+}
+
+.marg-btm {
+	margin-bottom: 2%;
+}
+
+section.six .right {
+	margin-left: 45%;
+}
+
+.six-flex {
+	display: flex;
+	flex-direction: column-reverse;	
+}
