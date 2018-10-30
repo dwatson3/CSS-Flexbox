@@ -33,7 +33,7 @@
 					<ul class="pad-left-list">
 						<li>Sets the context for the flex box layout.</li>
 
-						<li>Contains flex items, the acutal elements that you layout using flex box.</li>
+						<li>Contains flex items, the actual elements that you layout using flex box.</li>
 
 						<li>Can be any block-level or inline element.</li>
 					</ul>
@@ -51,7 +51,7 @@
 					<ul class="pad-left-list">
 						<li><em>Main axes</em> &mdash; where primary flex items are laid out, the main start/main end direction is left&ndash;to&ndash;right.</li>
 
-						<li><em>Cross axis</em> &mdash; the main start/main end is top&ndash;to&ndash;bottom.</li>
+						<li><em>Cross axis</em> &mdash; the main start/main end direction is top&ndash;to&ndash;bottom.</li>
 					</ul>			
 			</section> <!-- section two ends -->
 
@@ -72,7 +72,7 @@
 					<img src="../images/north-east-arrow.jpg" alt="Arrow Icon">
 				</div>
 
-				<p class="pad-left-list"><strong>Above</strong>: the flex container is used with <code class="orange"> display: flex;</code> &mdash; this creates a block&ndash;level flex container.</p>
+				<p class="pad-left-list">The flex container is used with <code class="orange"> display: flex;</code> &mdash; this creates a block&ndash;level flex container.</p>
 
 				<ul class="pad-left-list">
 					<li>Any element outside a flex container is not affected by the flex box layout.</li>
@@ -86,7 +86,23 @@
 			<section class="four">
 				<h2 class="pad-left">Working with Flex Directions</h2>
 
-				<p class="pad-left pad-btm">The flex direction property applies to the <strong>flex container</strong> only. The default value for flex direction is <strong>row</strong>.</p>
+				<p class="pad-left pad-btm">The flex direction property applies to the <strong>flex container</strong> only.</p> 
+
+				<p class="pad-left">The default value for flex direction is <strong>row</strong>, using <code class="orange">display: flex</code>.</p>
+
+				<div class="four-first-arrow">
+					<img src="../images/downwards-arrow.jpg" alt="Arrow Icon">
+				</div>
+
+				<div class="flex" style="margin-bottom: 5%;">
+					<div class="flex-img-demo pad-left-list">
+						<img src="../images/pexels-photo-247685-small.png" alt="Flex Demo">
+
+						<img src="../images/pexels-photo-988865-small.jpg" alt="Flex Demo">
+				
+						<img src="../images/pexels-photo-1099680-small.jpg" alt="Flex Demo">
+					</div> <!-- flex-img-demo ends -->
+				</div> <!-- flex ends -->
 
 				<div class="four-flex">
 					<div>
@@ -112,7 +128,11 @@
 
 			<section class="five">
 
-				<p class="pad-left pad-btm">Flex direction also applies to making a column. In your code, use <code class="orange">flex-direction: column</code>.</p>
+				<p class="pad-left">Flex direction also applies to making a column. In your code, use <code class="orange">flex-direction: column</code>.</p>
+
+				<div class="five-arrow">
+				 	<img src="../images/downwards-arrow.jpg" alt="Arrow Icon">
+				 </div>
 
 				<div class="flex pad-left-list">
 					<div class="marg-btm">
@@ -127,10 +147,14 @@
 						<img src="../images/pexels-photo-106877-small.jpg" alt="Flex">
 					</div>
 				</div>
+
+				<div class="five-second-arrow">
+					<img src="../images/south-east-arrow.jpg" alt="Arrow Icon">
+				</div>
 				
 			</section> <!-- section five ends -->
 
-			<section class="six right" style="margin-left: 45%;">
+			<section class="six pos-right" style="margin-left: 35%; margin-top: -5%;">
 				 <p class="pad-left pad-btm">Reverse a column by using <code class="orange">flex-direction: column-reverse</code>.</p>
 
 				<div class="six-flex pad-left-list">
@@ -154,7 +178,13 @@
 
 				<p class="pad-left pad-btm">By default, flex items will try to fit onto one line. You can change this property and allow the items to wrap as needed.</p>
 
-				<p class="pad-left pad-btm">The default property is <code class="orange">flex&ndash;wrap: nowrap</code>. All flex items are on one line.</p>
+				<div class="flex-wrap">
+					<p class="pad-left pad-btm">The default property is <code class="orange">flex&ndash;wrap: nowrap</code>. All flex items are on one line.</p>
+
+					<div class="seven-arrow">
+						<img src="../images/rightwards-arrow-downwards.jpg" alt="Arrow Icon">
+					</div>
+				</div>
 
 				<div class="flex">
 					<div>
@@ -179,6 +209,10 @@
 
 				</div>
 				
+			</section><!-- section seven ends-->
+
+			<section class="eight">
+				<p class="pad-left"><code class="orange">flex&ndash;wrap: wrap</code> will wrap flex&ndash;items onto multiple lines.</p>
 			</section>
 
 		</div> <!-- container ends -->

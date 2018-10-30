@@ -13,6 +13,7 @@ body {
 	border-radius: 2%;
 	margin: 5% 5%;
 	padding: 2% 2%;
+	/*width: 85%;*/
 }	
 
 section {
@@ -90,6 +91,10 @@ h2 {
 	padding-left: 0.25%;
 }
 
+.four-first-arrow {
+	margin-left: 40%;
+}
+
 .four-arrow {
 	margin-left: 32%;
 	padding-top: 1%;
@@ -103,16 +108,29 @@ h2 {
 	display: flex;
 }
 
+.five-arrow {
+	margin-left: 19%;
+	margin-bottom: 2%;
+}
+
 .five .flex {
 	flex-direction: column;
 }
+
+.five-second-arrow {
+	margin-left: 30%;
+}
+
+/*.five-arrow img {
+	margin-left: 30%;
+}*/
 
 .marg-btm {
 	margin-bottom: 2%;
 }
 
-section.six .right {
-	margin-left: 45%;
+.six .pos-right {
+
 }
 
 .six-flex {
@@ -124,6 +142,15 @@ section.six .right {
 .seven .flex {
 	display: flex;
 	flex-direction: row;
+}
+
+.seven .flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.seven-arrow {
+	margin-top: 20px;
 }
 
 .seven .flex div {
