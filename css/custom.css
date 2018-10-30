@@ -66,6 +66,15 @@ h2 {
 	display: flex;
 }
 
+.three-arrow {
+	margin-left: 35%;
+	padding-top: 1%;
+}
+
+.center img {
+	margin: 0 auto;
+}
+
 .flex-img-demo {
 	padding-right: 5%;
 }
@@ -79,6 +88,11 @@ h2 {
 	flex-direction: row-reverse;
 	margin-right: 5%;
 	padding-left: 0.25%;
+}
+
+.four-arrow {
+	margin-left: 32%;
+	padding-top: 1%;
 }
 
 .pad-btm {
@@ -105,3 +119,14 @@ section.six .right {
 	display: flex;
 	flex-direction: column-reverse;	
 }
+
+
+.seven .flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.seven .flex div {
+	margin-right: 1%;
+}
+
