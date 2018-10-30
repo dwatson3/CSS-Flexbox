@@ -157,3 +157,16 @@ h2 {
 	margin-right: 1%;
 }
 
+.eight .flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.eight .flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.eight .flex div {
+	margin-right: 1%;
+}
