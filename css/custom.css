@@ -74,17 +74,10 @@ h2 {
 	color: #EC8B24;
 }
 
-.four .flex {
+.four-flex {
 	display: flex;
-	
-}
-
-.fourth .flex img {
 	flex-direction: row-reverse;
 	margin-right: 5%;
-}
-
-.fourth .flex div {
 	padding-left: 0.25%;
 }
 
