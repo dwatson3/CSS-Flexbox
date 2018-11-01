@@ -65,6 +65,10 @@ h2 {
 
 .three .flex {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
 }
 
 .three-arrow {
@@ -106,6 +110,10 @@ h2 {
 
 .five .flex {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
 }
 
 .five-arrow {
@@ -135,17 +143,32 @@ h2 {
 
 .six-flex {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
+
 	flex-direction: column-reverse;	
 }
 
 
 .seven .flex {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
+
 	flex-direction: row;
 }
 
 .seven .flex-wrap {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
+
 	flex-wrap: wrap;
 }
 
@@ -159,14 +182,48 @@ h2 {
 
 .eight .flex-wrap {
 	display: flex;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;
+
 	flex-wrap: wrap;
 }
 
-.eight .flex {
+.eight .eight-flex {
+	display: flex;
+	/*display: -webkit-flex;*/
+	/*display: -ms-flexbox;*/
+	/*display: -moz-box;*/
+	/*display: -webkit-box;*/
+
+	flex-wrap: wrap;
+	/*-webkit-flex-wrap: wrap;*/
+}
+
+.eight .eight-flex div {
+	margin-right: 1%;
+}
+
+.nine p {
+ 	display: flex;
+/*	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -moz-box;
+	display: -webkit-box;*/
+}
+
+.nine .nine-flex {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	/*-webkit-flex-wrap: wrap-reverse;*/
+}
+
+.nine .flex-wrap {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.eight .flex div {
+.nine .nine-flex div {
 	margin-right: 1%;
-}
+} 
