@@ -41,6 +41,11 @@ p {
 	/*margin-top: 10%;*/
 }
 
+.font-22 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+}
+
 .pad-left {
 	padding-left: 5%;
 }
@@ -227,3 +232,19 @@ h2 {
 .nine .nine-flex div {
 	margin-right: 1%;
 } 
+
+.eleven-arrow {
+	margin-left: 32%;
+}
+
+.eleven .eleven-flex {
+	display: flex;
+}
+
+.eleven .eleven-flex div {
+	margin-right: 1%;
+}
+
+.eleven .eleven-flex img {
+	border-radius: 50%;
+}
