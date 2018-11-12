@@ -54,6 +54,10 @@ p {
 	padding-left: 10%;
 }
 
+.pad-top {
+	padding-top: 10px;
+}
+
 li {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -157,24 +161,28 @@ h2 {
 }
 
 
-.seven .flex {
+.seven .seven-flex {
 	display: flex;
-	display: -webkit-flex;
+/*	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: -moz-box;
-	display: -webkit-box;
+	display: -webkit-box;*/
 
 	flex-direction: row;
 }
 
 .seven .flex-wrap {
 	display: flex;
-	display: -webkit-flex;
+/*	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: -moz-box;
-	display: -webkit-box;
+	display: -webkit-box;*/
 
 	flex-wrap: wrap;
+}
+
+.seven .seven-flex div {
+	margin-right: 1%;
 }
 
 .seven-arrow {
@@ -248,3 +256,54 @@ h2 {
 .eleven .eleven-flex img {
 	border-radius: 50%;
 }
+
+.twelve p {
+	display: flex;
+	margin-left: 40%;
+}
+
+/*.twelve-flex {
+	display: flex;
+}
+*/
+.twelve-flex {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.marg-left {
+	margin-left: 67%;
+}
+
+.twelve .twelve-flex div {
+	margin-left: 1%;
+}
+
+.twelve .twelve-flex img {
+	border-radius: 50%;
+}
+
+.thirteen p {
+	display: flex;
+}
+
+.thirteen-arrow {
+	margin-left: 50%;
+}
+
+.thirteen-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fourteen-arrow {
+	margin-left: 50%;
+}
+
+.fourteen-flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
