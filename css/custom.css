@@ -72,6 +72,7 @@ h2 {
 	margin-bottom: 2%;
 }
 
+/* Section Three */
 .three .flex {
 	display: flex;
 	display: -webkit-flex;
@@ -97,6 +98,7 @@ h2 {
 	color: #EC8B24;
 }
 
+/* Section Four */
 .four-flex {
 	display: flex;
 	flex-direction: row-reverse;
@@ -117,6 +119,7 @@ h2 {
 	padding-bottom: 3%;
 }
 
+/* Section Five */
 .five .flex {
 	display: flex;
 	display: -webkit-flex;
@@ -146,10 +149,7 @@ h2 {
 	margin-bottom: 2%;
 }
 
-.six .pos-right {
-
-}
-
+/* Section Six */
 .six-flex {
 	display: flex;
 	display: -webkit-flex;
@@ -160,7 +160,7 @@ h2 {
 	flex-direction: column-reverse;	
 }
 
-
+/* Section Seven */
 .seven .seven-flex {
 	display: flex;
 /*	display: -webkit-flex;
@@ -193,6 +193,7 @@ h2 {
 	margin-right: 1%;
 }
 
+/* Section Eight */
 .eight .flex-wrap {
 	display: flex;
 	display: -webkit-flex;
@@ -218,6 +219,7 @@ h2 {
 	margin-right: 1%;
 }
 
+/* Section Nine */
 .nine p {
  	display: flex;
 /*	display: -webkit-flex;
@@ -241,6 +243,7 @@ h2 {
 	margin-right: 1%;
 } 
 
+/* Section Eleven */
 .eleven-arrow {
 	margin-left: 32%;
 }
@@ -257,15 +260,12 @@ h2 {
 	border-radius: 50%;
 }
 
+/* Section Twelve */
 .twelve p {
 	display: flex;
 	margin-left: 40%;
 }
 
-/*.twelve-flex {
-	display: flex;
-}
-*/
 .twelve-flex {
 	display: flex;
 	justify-content: flex-end;
@@ -283,6 +283,7 @@ h2 {
 	border-radius: 50%;
 }
 
+/* Section Thirteen */
 .thirteen p {
 	display: flex;
 }
@@ -296,6 +297,7 @@ h2 {
 	justify-content: space-between;
 }
 
+/* Section Fourteen */
 .fourteen-arrow {
 	margin-left: 50%;
 }
@@ -303,6 +305,28 @@ h2 {
 .fourteen-flex {
 	display: flex;
 	justify-content: space-around;
+}
+
+/* Section Fifteen */
+.fifteen-arrow {
+	margin-left: 50%;
+}
+
+.fifteen .fifteen-flex div {
+	margin-right: 1%;
+}
+
+.fifteen .fifteen-flex img {
+	border-radius: 50%;
+}
+
+.fifteen-flex {
+	display: flex;
+}
+
+.grow-item {
+	background-color: #A9C2E0;
+	flex-grow: 2;
 }
 
 
