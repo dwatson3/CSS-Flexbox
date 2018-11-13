@@ -577,5 +577,32 @@ h2 {
 		height: 60px;
 		width: 91px;
 	}
+
+	.seven, .eight, .nine, .ten {
+		padding-top: 2%;
+	}
+
+	.seven .seven-flex img {
+		height: 70px; 
+		width: 106px;
+	}
+
+	.eight-arrow img {
+		display: none;
+	}
+
+	.eight .eight-flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.nine-arrow {
+		display: none;
+	}
+
+	.nine .nine-flex img {
+		height: 60px;
+		width: 91px;
+	}
 }
 
