@@ -402,5 +402,19 @@ h2 {
 		height: 70px;
 		width: 73px;
 	}
+
+	.five-arrow img {
+		height: 70px;
+		width: 73px;
+
+		margin-left: -8%;
+	}
+
+	.five-second-arrow img {
+		height: 70px;
+		width: 73px;
+
+		margin-left: -5%;
+	}
 }
 
