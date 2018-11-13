@@ -325,9 +325,40 @@ h2 {
 }
 
 .grow-item {
-	background-color: #A9C2E0;
 	flex-grow: 2;
 }
 
+.bg-blue {
+	background-color: #A9C2E0;
+}
+
+/* Section Sixteen */
+.sixteen-arrow {
+	margin-left: 47%;
+}
+
+.sixteen-flex {
+	display: flex;
+}
+
+.sixteen .sixteen-flex div {
+	margin-right: 1%;
+} 
+
+.sixteen .sixteen-flex img {
+	border-radius: 50%;
+}
+
+.sixteen-grow-item {
+	flex-grow: 1;
+}
+
+/*.shrink-item {
+	flex-shrink: 2;
+}*/
+
+.bg-yellow {
+	background-color: #F2F5A9;
+}
 
 

@@ -413,7 +413,7 @@
 
 				<p class="pad-left">This defines the ability for a flex&ndash;item to grow, if needed. It controls what amount of the available space inside the flex container the item should take up.</p>
 
-				<p class="pad-left pad-top">Example below in center is using <code class="orange">flex&ndash;grow: 2</code>. This value is taking up twice as much space as the others.</p>
+				<p class="pad-left pad-top">Example below in center is using <code class="orange">flex&ndash;grow: 2</code>. This value is taking up twice as much space as the others. The higher the grow value, the more an item grows relative to the other items. <em>*Negative numbers are invalid.</em></p>
 
 				<div class="fifteen-arrow">
 					<img src="../images/downwards-arrow.jpg" alt="Downwards arrow">
@@ -424,7 +424,7 @@
 						<img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo">
 					</div>
 
-					<div class="grow-item">
+					<div class="grow-item bg-blue">
 						<img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo">
 					</div>
 
@@ -432,9 +432,35 @@
 						<img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo">
 					</div>
 				</div>
-
-
 			</section> <!-- section fifteen ends -->
+
+			<section class="sixteen">
+				<p class="pad-left"><code class="orange" style="padding-right: 5px;">flex&ndash;shrink</code> allows for a flex&ndash;item to shrink, if needed.</p>
+
+				<p class="pad-left">In example below, the center paragraph is using <code class="orange">flex&ndash;shrink: 1</code>. This flex&ndash;item shrinks in relative to the rest of the flex items in the flex container.</p>
+
+				<div class="sixteen-arrow">
+					<img src="../images/downwards-arrow.jpg" alt="Downwards arrow">
+				</div>
+
+				<div class="sixteen-flex bg-yellow">
+					<div class="sixteen-grow-item">
+						<!-- <img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo"> -->
+
+						<p class="pad-left">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+					</div>
+
+					<div class="shrink-item bg-blue">
+						<!-- <img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo"> -->
+						<p class="pad-left">Veggies es bonus vobis, proinde vos postulo essum magis.</p>
+					</div>	
+
+					<div class="sixteen-grow-item bg-yellow">
+						<!-- <img src="../images/pexels-photo-small-1029919.jpg" alt="Flex Demo"> -->
+						<p class="pad-left">Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+					</div>
+				</div>
+			</section> <!-- section sixteen ends-->
 
 		</div> <!-- container ends -->
 	<script src="./js/script.js"></script>	
