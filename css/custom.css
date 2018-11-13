@@ -460,5 +460,16 @@ h2 {
 	.thirteen-arrow img, .fourteen-arrow img {
 		display: none;
 	}
+
+	.fifteen {
+		padding-top: 2%;
+	}
+
+	.fifteen-arrow img {
+		height: 70px;
+		width: 73px;
+
+		margin-left: -25%;
+	}
 }
 
