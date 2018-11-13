@@ -428,5 +428,20 @@ h2 {
 	.seven-arrow img {
 		display: none;
 	}
+
+	.nine code {
+		padding-right: 0px !important;
+	}
+
+	.ten {
+		padding-top: 2%;
+	}
+
+	.eleven-arrow img {
+		height: 70px;
+		width: 73px;
+
+		margin-left: 4%;
+	}
 }
 
