@@ -134,11 +134,12 @@ h2 {
 }
 
 .five .flex {
+	display: flex;
 	flex-direction: column;
 }
 
 .five-second-arrow {
-	margin-left: 30%;
+	margin-left: 20%;
 }
 
 /*.five-arrow img {
@@ -150,34 +151,20 @@ h2 {
 }
 
 /* Section Six */
-.six-flex {
+.six .six-flex {
 	display: flex;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: -moz-box;
-	display: -webkit-box;
-
 	flex-direction: column-reverse;	
+	/*justify-content: flex-end;*/
 }
 
 /* Section Seven */
 .seven .seven-flex {
 	display: flex;
-/*	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: -moz-box;
-	display: -webkit-box;*/
-
 	flex-direction: row;
 }
 
 .seven .flex-wrap {
 	display: flex;
-/*	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: -moz-box;
-	display: -webkit-box;*/
-
 	flex-wrap: wrap;
 }
 
