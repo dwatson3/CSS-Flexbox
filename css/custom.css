@@ -368,6 +368,14 @@ h2 {
 		margin-bottom: 5%;
 	}
 
+	.pad-left {
+		padding-left: 3%;
+	}
+
+	.pad-left-list {
+		padding-left: 5%;
+	}
+
 	h2 {
 	/*	background-color: blue;*/
 	}
@@ -385,14 +393,14 @@ h2 {
 		height: 70px;
 		width: 73px;
 	}
-
-	.pad-left {
-		padding-left: 3%;
-	}
-
-	.pad-left-list {
-		padding-left: 5%;
-	}
 	
+	.four {
+		padding-top: 2%;
+	}
+
+	.four-first-arrow img, .four-arrow img {
+		height: 70px;
+		width: 73px;
+	}
 }
 
