@@ -41,6 +41,22 @@ p {
 	/*margin-top: 10%;*/
 }
 
+a {
+	color: #EC8B24;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #EC8B24; 
+}
+
+/*a:visited {
+	color: #DADBDC;
+}*/
+
 .font-22 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
@@ -434,6 +450,10 @@ h2 {
 		display: none;
 	}
 
+	.eight-arrow img {
+		display: none;
+	}
+
 	.nine code {
 		padding-right: 0px !important;
 	}
@@ -479,6 +499,13 @@ h2 {
 
 	.sixteen {
 		padding-top: 2%;
+	}
+
+	.sixteen-arrow img {
+		height: 70px;
+		width: 73px;
+
+		margin-left: -5%;
 	}
 }
 
