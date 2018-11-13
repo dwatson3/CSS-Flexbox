@@ -443,5 +443,18 @@ h2 {
 
 		margin-left: 4%;
 	}
+
+	.twelve code {
+		padding-right: 0px !important;
+	}
+
+	.twelve-arrow img {
+		height: 70px;
+		width: 73px;
+	}
+
+	.twelve .marg-left {
+		margin-left: 58% !important;
+	}
 }
 
