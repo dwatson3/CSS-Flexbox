@@ -462,6 +462,10 @@ h2 {
 		padding-top: 2%;
 	}
 
+	.pad-left {
+		padding-left: 0%;
+	}
+
 	.eleven-arrow img {
 		height: 70px;
 		width: 73px;
@@ -506,6 +510,47 @@ h2 {
 		width: 73px;
 
 		margin-left: -5%;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 769px) {
+	body {
+		/*background-image: url("../images/pexels-background-canvas-close-up-1020320.jpg");	*/
+		background-color: #DADBDC;
+	}
+
+	.container {
+		background-color: white;
+		border-radius: 2%;
+		margin: 10% 5%;
+		padding: 2% 8%;
+		/*width: 85%;*/
+	}	
+
+	section {
+		margin-bottom: 5%;
+	}
+
+	.one, .two, .three {
+		padding-top: 2%;
+	}
+
+	.three .flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.three-arrow img {
+		height: 50px;
+		width: 72px;
+	}
+
+	.three p {
+		margin-top: -2%;
+	}
+
+	.three li {
+		padding-bottom: 3%;
 	}
 }
 
