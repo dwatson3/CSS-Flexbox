@@ -189,6 +189,12 @@ h2 {
 	display: -webkit-box;
 
 	flex-wrap: wrap;
+
+	margin-bottom: 3%;
+}
+
+.eight-arrow img {
+	margin-top: 30%;
 }
 
 .eight .eight-flex {
