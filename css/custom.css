@@ -531,7 +531,7 @@ h2 {
 		margin-bottom: 5%;
 	}
 
-	.one, .two, .three {
+	.one, .two, .three, .four {
 		padding-top: 2%;
 	}
 
@@ -551,6 +551,26 @@ h2 {
 
 	.three li {
 		padding-bottom: 3%;
+	}
+
+	.four .flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.four .four-flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.five .flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.five-second-arrow img {
+		height: 60px;
+		width: 58px;
 	}
 }
 
