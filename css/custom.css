@@ -376,6 +376,23 @@ h2 {
 		height: 120px;
 		width: 181px;
 	}
+
+	.three .flex {
+		padding-top: 2%;
+	}
+
+	.three-arrow img {
+		height: 70px;
+		width: 73px;
+	}
+
+	.pad-left {
+		padding-left: 3%;
+	}
+
+	.pad-left-list {
+		padding-left: 5%;
+	}
 	
 }
 
