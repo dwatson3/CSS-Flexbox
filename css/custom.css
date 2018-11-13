@@ -604,5 +604,29 @@ h2 {
 		height: 60px;
 		width: 91px;
 	}
+
+	.eleven, .twelve, .thirteen, .fourteen {
+		padding-top: 2%;
+	}
+
+	.eleven .eleven-flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.twelve .twelve-flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.thirteen .thirteen-flex img {
+		height: 60px; 
+		width: 91px;
+	}
+
+	.fourteen .fourteen-flex img {
+		height: 60px; 
+		width: 91px;
+	}
 }
 
