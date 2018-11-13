@@ -456,5 +456,9 @@ h2 {
 	.twelve .marg-left {
 		margin-left: 58% !important;
 	}
+
+	.thirteen-arrow img, .fourteen-arrow img {
+		display: none;
+	}
 }
 
