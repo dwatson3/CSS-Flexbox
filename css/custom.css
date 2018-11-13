@@ -385,6 +385,10 @@ h2 {
 		width: 181px;
 	}
 
+	.three h2 {
+		padding-top: 2%;
+	}
+
 	.three .flex {
 		padding-top: 2%;
 	}
@@ -415,6 +419,14 @@ h2 {
 		width: 73px;
 
 		margin-left: -5%;
+	}
+
+	.seven {
+		padding-top: 2%;
+	}
+
+	.seven-arrow img {
+		display: none;
 	}
 }
 
