@@ -739,6 +739,10 @@ span a {
 		display: flex;
 	}
 
+	.sixteen-flex p {
+		font-size: 10px;
+	}
+
 	.seventeen {
 		padding-bottom: 5%;
 	}
