@@ -739,8 +739,8 @@ span a {
 		display: flex;
 	}
 
-	.sixteen-flex div p {
-		font-size: 10px;
+	.sixteen .sixteen-flex div p {
+		font-size: 10px !important;
 	}
 
 	.seventeen {
